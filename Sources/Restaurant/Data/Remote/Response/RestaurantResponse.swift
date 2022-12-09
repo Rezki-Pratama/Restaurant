@@ -45,7 +45,7 @@ public struct Drinks: Codable {
 }
 
 extension RestaurantResponse {
-    static func fake() -> Self {
+    public static func fake() -> Self {
         return RestaurantResponse(
           id: "rqdv5juczeskfw1e867",
           name: "Melting Pot",
